@@ -13,8 +13,7 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-FROM crops/yocto:ubuntu-16.04-base
-
+FROM linuxianer99/ovbuild-container
 USER root
 
 ADD https://raw.githubusercontent.com/crops/extsdk-container/master/restrict_useradd.sh  \
