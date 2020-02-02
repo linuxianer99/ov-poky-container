@@ -13,7 +13,7 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-FROM linuxianer99/ovbuild-container
+FROM linuxianer99/ovbuild
 USER root
 
 ADD https://raw.githubusercontent.com/crops/extsdk-container/master/restrict_useradd.sh  \
